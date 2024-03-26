@@ -3,9 +3,11 @@ body{
   background: #1C0B19;
 }
 
-@media only screen and( min-width: 601px){
+@media screen and (min-width: 440px) {
+  /* Styles for screens larger than 600px */
+  /* Add your CSS rules here */
   .container{
-    padding: 3rem 20rem;
+    max-width: 320px;
   }
 }
 
